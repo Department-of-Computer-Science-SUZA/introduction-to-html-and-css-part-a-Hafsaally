@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <div class="container mt-5">
+    <div class="card">
+      <div class="card-header bg-primary text-white">
+        <h3 class="hafsa">Registration Form</h3>
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="name" class="form-label">Name:</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="col">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" id="password" class="form-control" placeholder="Enter your password">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Gender:</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div><br><br>
+            <label class="form-label">Intrest:</label><br><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="learning" id="intrest" value="Music">
+                <label class="form-check-label" for="learning">Learning Progrming</label><br><br>
+                <input class="form-check-input" type="checkbox" name="learning" id="intrest" value="Music">
+                <label class="form-check-label" for="learning">Playing Guitar</label>
+              </div>
+          </div><br>
+
+          <div class="mb-3">
+            <label for="country" class="form-label">Select your country:</label>
+            <select id="country" class="form-select">
+              <option>Tanzania</option>
+              <option>Kenya</option>
+              <option>Uganda</option>
+              <option>Rwanda</option>
+              <option>Burundi</option>
+              <option>Somalia</option>
+              <option>Ethiopia</option>
+              <option>Mozambique</option>
+              <option>Malawi</option>
+              <option>Zimbabwe</option>
+              <option>Nigeria</option>
+              <option>Zambia</option>
+              <option>India</option>
+              <option>Pakistan</option>
+              <option>Bangladesh</option>
+              <option>Sri Lanka</option>
+              <option>Nepal</option>
+              <option>Afghanistan</option>
+              <option>USA</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="fileUpload" class="form-label">Upload File:</label>
+            <input type="file" class="form-control" id="fileUpload">
+          </div>
+
+          <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

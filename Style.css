@@ -1,0 +1,60 @@
+/* style.css */
+
+/* Basic styling for form container */
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+
+  /* Styling input fields */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-left: 10px;
+  }
+  
+  /* Styling button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 10px;
+    }
+  
+    input[type="submit"] {
+      width: 100%;
+    }
+  }
+
+
+  .hafsa {
+    text-align: center;
+  }
